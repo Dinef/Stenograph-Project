@@ -25,9 +25,11 @@
 
             <br />
 
-                        <asp:Button ID="btnDecode" Text="Decode" CssClass="btn btn-danger"  runat="server" />
+                        <asp:Button ID="btnDecode" Text="Decode" CssClass="btn btn-danger"  runat="server" OnClick="btnDecode_Click" />
 
-            <asp:TextBox ID="txtDecodedMsg" runat="server"></asp:TextBox>
+
+                        <asp:Label ID="lblDecodedMsg" runat="server" Text="Label"></asp:Label>
+
 
          </div>
      
