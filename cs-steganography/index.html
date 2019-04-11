@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Steganography</title>
+  
+  
+  <link rel='stylesheet' href='https://cdn.jsdelivr.net/foundation/6.2.0/foundation.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+	<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+</ul>
+
+  <div class="wrap">
+	<h1>Image Steganography</h1>
+
+	
+	
+
+	<h2>Encode an image with a message</h2>
+	<label>Enter a message to hide within the image:</label><br/>
+	<input type="password" id="message" placeholder="Enter your secret message"></br>
+	<label>Upload an image image:</label><br/>
+	<input type="file" id="imageLoader" name="imageLoader"/>
+	<canvas id="imageCanvas"></canvas>
+	<canvas id="textCanvas"></canvas>
+	<hr>
+	<h2>Decode an image</h2>
+	<label>Upload an image:</label><br/>
+	<input type="file" id="imageLoader2" name="imageLoader2"/>
+	<canvas id="imageCanvas2"></canvas>
+</div>
+  
+    
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
